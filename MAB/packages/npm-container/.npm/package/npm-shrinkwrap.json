@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "bootstrap": {
+      "version": "3.3.6",
+      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.6.tgz",
+      "from": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.6.tgz"
+    },
+    "json2xml": {
+      "version": "0.1.2",
+      "resolved": "https://registry.npmjs.org/json2xml/-/json2xml-0.1.2.tgz",
+      "from": "json2xml@0.1.2"
+    },
+    "jszip": {
+      "version": "2.5.0",
+      "resolved": "https://registry.npmjs.org/jszip/-/jszip-2.5.0.tgz",
+      "from": "jszip@2.5.0",
+      "dependencies": {
+        "pako": {
+          "version": "0.2.8",
+          "resolved": "https://registry.npmjs.org/pako/-/pako-0.2.8.tgz",
+          "from": "pako@>=0.2.5 <0.3.0"
+        }
+      }
+    },
+    "knockout": {
+      "version": "3.4.0",
+      "resolved": "https://registry.npmjs.org/knockout/-/knockout-3.4.0.tgz",
+      "from": "https://registry.npmjs.org/knockout/-/knockout-3.4.0.tgz"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+button.consent {
+	background-color: #9C0945; 
+	border: 2px solid #9C0945;
+	color: white;
+	font-size: 14px;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 10px 22px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+button.consent:hover {
+    background-color: white;
+    color: #9C0945;
+    font-weight: bold;
+}
+
+div.consentContent{
+	border-radius: 8px;
+	border: 2px solid #ddd;
+	padding:20px 22px;
+	margin-top: 100px;
+
+}

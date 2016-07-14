@@ -1,0 +1,34 @@
+<template name = 'instruction'>
+
+	<center><h2>INSTRUCTION</h2></center>
+	<div class="consentContent">
+	  <p>The game you will be playing proceeds in a series of rounds. In each round, you will be able to choose between a set of slot machines to pull by directly clicking them. Each slot machine has some fixed chance of producing a winning pull. Each time the slot machine you pick in a round produces a winning pull, you will receive a reward of 1 point. Otherwise, you will get nothing.<br>
+	  You will be assigned in a group, with other players, facing the same slot machines. For each round, you can only make desision once, and then wait for others in your group finishing their rounds before starting next one. So make your click carefully.<br> 
+	  Your goal is to attempt to maximize your total points by finding the slot machine that has the best chance of producing winning pulls. You will receive a bonus of $0.01 per point you receive.<br>
+	  You are going to play {{gameNum}} games, each with {{roundNum}} rounds and with the other {{number}} person(s).</p>
+	</div>
+
+	<div class="page-header">
+        <h3>Comprehension Quiz</h3>
+    </div>
+
+    <div class="survey">
+    <p><strong>What does the best slot machine mean?</strong></p>
+	<input type="radio"  name = "quizOne" id="quizOne" value='0'>The best looking one.<br>  
+	<input type="radio" name = "quizOne" id="quizOne" value='1'>The one with the best expected rewards.<br>
+	</div>
+
+    <div class="survey">
+    <p><strong>Your goal in this game is to </strong></p>
+	<input type="radio" name = "quizTwo" id="quizTwo" value="1">Maximize your total reward by identifying the best slot machine.<br>  
+	<input type="radio" name = "quizTwo" id="quizTwo" value="0">Maximize your total reward by luck.<br>
+	</div>
+    
+    <div class="survey">
+	<p><strong>When you got reward</strong></p>
+	<input type="radio" name = "quizThree" id="quizThree" value="1">You will get 1 point per time.<br>  
+	<input type="radio" name = "quizThree" id="quizThree" value="0">You will get a random number of points per time.<br>
+	</div>
+
+	<center><button type="button" class='practise'>SUBMIT</button></center>
+</template>

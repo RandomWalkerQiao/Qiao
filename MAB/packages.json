@@ -1,0 +1,6 @@
+{
+	"knockout": "3.4.0", 
+	"bootstrap" : "3.3.6",
+	"jszip": "2.5.0",
+  	"json2xml": "0.1.2"
+}
