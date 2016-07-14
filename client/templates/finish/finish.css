@@ -1,0 +1,40 @@
+
+#sliderTwo {
+	background: #9C0945;
+	margin: 20px;
+}
+
+#sliderOne {
+	background: #9C0945;
+	margin: 20px;
+}
+
+#sliderThree {
+	background: #9C0945;
+	margin: 20px;
+}
+
+#sliderFour {
+	background: #9C0945;
+	margin: 20px;
+}
+
+
+
+button.btn {
+	background-color: #9C0945; 
+	border: 2px solid #9C0945;
+	color: white;
+	font-size: 14px;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 10px 22px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+button.btn:hover {
+    background-color: white;
+    color: #9C0945;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+<template name = 'finish'>
+	<center><h3>Congratulations! You just got {{totalPoints}} point(s) in this game!</h3></center>
+	<center><h3>Please mark how likely you believe this machine is the best one.</h3></center>
+
+	<div class="img">
+		<img id = 'likelyHood' src="slotmachine.png" alr = 'likelyHood' style=" width:255px;height:200px;" hspace="35" class="one">
+		<div name = 'slider' id="sliderOne"></div>
+  		<center><h4>Probability: {{sliderOne}} %</h4></center> 
+	</div>
+
+	<div class="img">
+		<img id = 'likelyHood' src="slotmachine.png" alr = 'likelyHood' style=" width:255px;height:200px;" hspace="35" class="one">
+		<div name = 'slider' id="sliderTwo"></div>
+  		<center><h4>Probability: {{sliderTwo}} %</h4></center> 
+	</div>
+
+	<div class="img">
+		<img id = 'likelyHood' src="slotmachine.png" alr = 'likelyHood' style=" width:255px;height:200px;" hspace="35" class="one">
+		<div name = 'slider' id="sliderThree"></div>
+  		<center><h4>Probability: {{sliderThree}} %</h4></center> 
+	</div>
+
+	<div class="img">
+		<img id = 'likelyHood' src="slotmachine.png" alr = 'likelyHood' style=" width:255px;height:200px;" hspace="35" class="one">
+		<div name = 'slider' id="sliderFour"></div>
+  		<center><h4>Probability: {{sliderFour}} %</h4></center> 
+	</div>
+
+	<center><button type="button" class="btn">SUBMIT</button></center>
+
+</template>
